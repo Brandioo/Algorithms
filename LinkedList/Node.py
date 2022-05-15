@@ -102,6 +102,8 @@ class LinkedList:
             current_node = current_node.next
             counter += 1
 
+# Reverse Function
+
     def reverse(self):
         previous_node = None
         current_node = self.head
