@@ -101,3 +101,9 @@ class LinkedList:
             # Continue iteration
             current_node = current_node.next
             counter += 1
+
+    def reverse(self):
+        previous_node = None
+        current_node = self.head
+        while current_node is not None:...
+        self.head = previous_node
